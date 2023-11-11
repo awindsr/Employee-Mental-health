@@ -6,10 +6,10 @@
 }
 
 form{
-    margin-top: 30px;
+    margin-top: 5%;
     width: 50%;
     border: 2px solid rgba(184, 181, 181, 0.76) ;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
     text-align: left;
 }
@@ -29,3 +29,38 @@ h6{
 .input-group{
     padding: 30px;
 }
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+body{
+    background-color: rgb(177, 255, 229);
+}
+
+.buttons p{
+    padding: 5px;
+    padding-top: 3%;
+}
+
+h1, .select{
+    text-align: center;
+}
+
+.rad{
+    padding: 100px;
+   
+}
+
+form {
+    display: block;
+    width: 50%;
+  }
+  @media (max-width: 576px) { 
+ form{
+    display: block;
+    width: 100%;
+}   
+
+  }
