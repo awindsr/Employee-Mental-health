@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form{
+    margin-top: 30px;
+    width: 50%;
+    border: 2px solid rgba(184, 181, 181, 0.76) ;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+h1{
+    align-content: center;
+}
+
+button{
+    margin: 10px;
+}
+
+h6{
+   color: rgb(154, 150, 150);
+}
+
+.input-group{
+    padding: 30px;
+}
