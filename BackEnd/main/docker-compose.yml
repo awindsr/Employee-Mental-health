@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: root_pass
+      MYSQL_DATABASE: db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+    ports:
+      - "3306:3306"  # Map MySQL container port 3306 to host port 3306
+    volumes:
+      - /path/on/host:/var/lib/mysql  # Map a volume on the host to the MySQL data directory
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
