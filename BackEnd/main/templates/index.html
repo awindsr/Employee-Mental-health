@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Data Charts</title>
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Average Daily Hours</h2>
+    <canvas id="avgDailyHoursChart" width="400" height="400"></canvas>
+
+    <h2>Leaves Taken</h2>
+    <canvas id="leavesTakenChart" width="400" height="400"></canvas>
+
+    <script src="app.js"></script>
+    <script>
+        // Call this function to fetch data and update the charts
+        fetchAndDisplayData();
+    </script>
+</body>
+</html>
