@@ -1,4 +1,4 @@
-# GTA Sandshores: Employee-Mental-health
+# GTA Sandshores Hackathon: Employee-Mental-health
 
 The Employee-Mental-Health project was initiated as a part of the GTA: Sandshores hackathon conducted by the Mulearn organisation in collaboration with Kerala Startup Mission (KSUM).
 
@@ -11,7 +11,7 @@ We plan to incentivise the process to encourage companies to adopt this measure.
 
 
 ## Team Members:
-1. [AwinDas R](https://github.com/awindsr)!
+1. [AwinDas R](https://github.com/awindsr)
 2. [Blesson Karikulammalayil Tomy](https://github.com/blesson-tomy)
 3. [Felix Jobi](https://github.com/An-AvG-Geek)
 4. [Nagaraj Menon](https://github.com/nagu-op)
